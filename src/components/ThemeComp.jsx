@@ -5,7 +5,7 @@ import { useState, useEffect } from 'react'
 import { useTheme } from 'next-themes'
 
 const ThemeComp = () => {
-  const [mounted, setMounted] = useState(false)
+  const [mounted, setMounted] = useState(true)
   const { systemTheme,theme, setTheme } = useTheme()
   useEffect(() => {
     setMounted(true)
